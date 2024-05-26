@@ -1,0 +1,33 @@
+.service_container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    grid-column: span 2; /* Set grid span to 2 */
+    line-height: 1.5em; 
+}
+
+.service_container div {
+    padding: 15px;
+    border: 1px solid black;
+    background-color: bisque;
+}
+.game-develope{
+    padding: 15px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.app-develope{
+    margin-left: 1%;
+}
+.service_container h3{
+    padding: 5px;
+    background-color: rgba(51, 52, 51, 0.501)
+}
+.game-develope h3{
+    padding: 5px;
+    background-color: rgba(51, 52, 51, 0.501)
+}
+

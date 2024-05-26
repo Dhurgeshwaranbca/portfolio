@@ -1,0 +1,36 @@
+#intro {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 20%;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 2%;
+    margin-left: 5%;
+}
+
+#intro p {
+    font-family: 'Arial', sans-serif; 
+    font-size: 20px; 
+    color: rgb(6, 6, 6); 
+    margin: 0;
+    line-height: 1.5; 
+}
+
+#intro img {
+    width: 200px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    transition: transform 1s ease-in-out, width 1s ease-in-out, border 1s ease-in-out; /* Smooth transition for hover effects */
+}
+
+#intro img:hover {
+    transform: rotate(-5deg) scale(1.005); /* Rotate 45 degrees and slightly scale up for 3D effect */
+    border: 1px solid white;
+    width: 300px; 
+    height: auto;
+    border-radius: 10px; 
+}

@@ -1,0 +1,35 @@
+.about_container{
+    color: black;
+    background-color: aliceblue;
+}
+.about-nav-list a{
+    font-size: xx-large;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.about_container h1{
+    font-size: xx-large;
+    padding: 2%;
+}
+.about_container button{
+    margin: 2%;
+    font-size: medium;
+    padding: .5%;
+    background-color: aqua;
+}
+
+.about_bottom{
+background-color: rgb(220, 226, 232);
+   display: flex;
+}
+
+.about-nav-list{
+    align-items: end;
+    margin-left: 60%;
+}
+
+.about_container a{
+    text-decoration: none;
+}
+
